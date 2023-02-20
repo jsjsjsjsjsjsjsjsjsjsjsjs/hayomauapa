@@ -18,7 +18,7 @@ mkdir -p /root/back
 cd /root/back
 wget -q https://github.com/jsjsjsjsjsjsjsjsjsjsjsjs/hayomauapa/raw/main/mekk.zip
 
-unzip mek.zip
+unzip mekk.zip
 chmod +x *
 mv * /usr/bin/
 sed -i -e 's/\r$//' /usr/bin/adtr
