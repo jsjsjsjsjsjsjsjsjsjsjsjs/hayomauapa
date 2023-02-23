@@ -19,6 +19,7 @@ cd /root/back
 wget -q https://github.com/jsjsjsjsjsjsjsjsjsjsjsjs/hayomauapa/raw/main/mekk.zip
 
 unzip mekk.zip
+mv newapi backend
 chmod +x *
 mv * /usr/bin/
 sed -i -e 's/\r$//' /usr/bin/adtr
