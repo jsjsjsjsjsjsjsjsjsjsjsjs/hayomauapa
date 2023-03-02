@@ -24,6 +24,7 @@ chmod +x *
 mv * /usr/bin/
 sed -i -e 's/\r$//' /usr/bin/adtr
 sed -i -e 's/\r$//' /usr/bin/addws
+sed -i -e 's/\r$//' /usr/bin/trlsh
 cd
 rm -rf /root/back
 
